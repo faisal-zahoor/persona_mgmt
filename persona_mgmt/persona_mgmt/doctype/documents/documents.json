@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-13 11:09:17.433148",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_type",
+  "column_break_chgx",
+  "attachment",
+  "column_break_cslt",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Document Type",
+   "options": "Passport\nNational ID / CNIC\nDriving License\nWork Permit\nVisa\nAcademic Transcript\nDegree / Diploma\nCertification\nMedical Report\nPolice Clearance\nEmployment Contract\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_chgx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "Attachment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_cslt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Expiry Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-09-13 11:11:37.157307",
+ "modified_by": "Administrator",
+ "module": "Persona Mgmt",
+ "name": "Documents",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

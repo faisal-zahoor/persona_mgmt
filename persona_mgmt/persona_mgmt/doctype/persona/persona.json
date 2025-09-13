@@ -1,0 +1,150 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PERS-{YYYY}-{#####}",
+ "creation": "2025-09-13 11:12:57.014891",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "last_name",
+  "column_break_fcpl",
+  "email",
+  "phone_number",
+  "section_break_nwyb",
+  "career_objective",
+  "skills_tab",
+  "section_break_szts",
+  "languages",
+  "section_break_anfk",
+  "certificates",
+  "experience_tab",
+  "employment_history_section",
+  "table_ylmp",
+  "other_info_tab",
+  "documents_section",
+  "table_nojz"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "First Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fcpl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "section_break_nwyb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "career_objective",
+   "fieldtype": "Text Editor",
+   "label": "Career Objective"
+  },
+  {
+   "fieldname": "section_break_szts",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "languages",
+   "fieldtype": "Table",
+   "label": "Languages",
+   "options": "Languages"
+  },
+  {
+   "fieldname": "section_break_anfk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "certificates",
+   "fieldtype": "Table",
+   "label": "Certificates",
+   "options": "Certificates"
+  },
+  {
+   "fieldname": "employment_history_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_ylmp",
+   "fieldtype": "Table",
+   "label": "Employment History",
+   "options": "Employment History"
+  },
+  {
+   "fieldname": "documents_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_nojz",
+   "fieldtype": "Table",
+   "label": "Documents",
+   "options": "Documents"
+  },
+  {
+   "fieldname": "skills_tab",
+   "fieldtype": "Tab Break",
+   "label": "Skills"
+  },
+  {
+   "fieldname": "experience_tab",
+   "fieldtype": "Tab Break",
+   "label": "Experience"
+  },
+  {
+   "fieldname": "other_info_tab",
+   "fieldtype": "Tab Break",
+   "label": "Other Info"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-09-13 11:25:38.397151",
+ "modified_by": "Administrator",
+ "module": "Persona Mgmt",
+ "name": "Persona",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
